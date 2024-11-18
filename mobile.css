@@ -1,0 +1,834 @@
+@media(max-width:440px){
+
+body{ 
+    padding: 0;
+    margin:0;
+   
+}
+
+
+
+.box-3{ border: px solid white;
+    height: 100%;
+    width: 290px;
+    flex-direction:column;
+    align-items:flex-start;
+    color: white;
+    justify-content:flex-start;
+
+    position: fixed;
+    right:-100%;
+    top: 0;
+    background-color:rgb(49, 14, 82);
+    transition: 0.7s ease-in-out;
+    border-radius:20px;
+}
+
+nav a{ display:flex;
+    text-decoration:none;
+    color:white;
+    padding:9px;
+    justify-content:center;
+
+}
+
+.move2{ margin-left:-1px ;
+
+}
+
+
+
+
+.box-4{border: px solid white;
+    width: 70px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 19px;
+    border-radius: 10px;
+    background-color: rgb(75, 39, 109);
+    color: white;
+    text-align: center;
+    padding-bottom:0;
+    padding-top: 5px;
+    padding-left: -10px;
+    font-family:monospace;
+    transition: ease-in 0.1s ;
+}
+
+
+
+.about{  margin-left:00px ;
+         margin-top: -20px;
+}
+
+#box-1{
+       display:none;
+}
+
+
+.open-box-1{ display: block;
+    padding:20px;
+    
+}
+
+.close-box-1{  display:block;
+               padding:20px;
+}
+
+.movesvg{ margin-left:170px;
+
+}
+
+#box-1:checked ~ .box-3{
+    right: -45%;
+}
+
+#box-1:checked ~ #overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.box-5{ border: px solid white;
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color:rgba(255, 255, 255, 0.048);
+
+}
+
+.box-7{ border: px solid white;
+    width: 330px;
+    height: 230px;
+    margin-top: -280px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: rgb(87, 5, 128);
+    font-size: xx-large;
+}
+
+.box-8{ border: px solid white;
+    width: 290px;
+    height: 35px;
+    margin-left: 19px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box-9{ border: px solid white;
+    width: 570px;
+    height: 10px;
+    margin-left: 90px;
+    margin-top: 15px;
+    font-size: 10px;
+    padding-top:0px;
+    color: white;
+  
+
+}
+
+
+.margin2{ margin:-15px;    
+}
+
+.margin3{ margin: 45px
+}
+
+.margin4{ margin:-20px;
+
+}
+
+.box-10{border-bottom: 1px solid white;
+    height: px;
+    width: 150px;
+    margin-left: 93px;
+    margin-top: 35px;
+    border-color: #f5f5f55e;
+}
+
+.box-11{ border: px solid white;
+    height: 20px;
+    width: 140px;
+    margin-left: 98px;
+    margin-top: 65px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+
+}
+
+.circle1{ border: px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 95px;
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+
+.facebook{ border: px solid white;
+    width: 22px;
+    height: 22px;
+    margin-top: -27px;
+    margin-left: -4px;        
+    border-radius: 55px;
+    transition: all 1s;
+    background-color: rgb(123, 8, 231);
+}
+
+.circle2{
+    border: px solid white;
+   width:  22px;
+   height: 22px;
+   border-radius: 50px;
+   margin-left: 140px;
+   margin-top: -40px;
+   background-color: rgb(123, 8, 231);
+       
+}
+
+.circle4{ border: px solid white;
+    width: 0px;
+    height: 10px;
+    border-radius: 50px;
+    margin-left: 142px;
+    margin-top: -31px;
+    align-content: center;
+    padding-right: -30px;
+
+}
+
+.circle5{ border: px solid white;
+    width:  24px;
+    height: 24px;
+    border-radius: 50px;
+    margin-left: 177px;
+    margin-top: -2px;
+    background-color: rgb(123, 8, 231);
+        
+}
+
+.circle6{  border: px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    margin-left: 173px;
+    margin-top: -28px;
+    align-content: center;
+    padding-right: -30px;
+}
+
+
+
+.circle7{  border: px solid white;
+    width:  24px;
+    height: 24px;
+    border-radius: 50px;
+    margin-left: 215px;
+    margin-top: -8px;
+    background-color: rgb(123, 8, 231);
+        
+}
+
+.circle8{  border: px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    margin-left: 218px;
+    margin-top: -33px;
+    align-content: center;
+    padding-right: -30px;
+
+}
+
+.circle9{ border: px solid white;
+    width: 100px;
+    height: 25px;
+    margin-left: 65px;
+    margin-top: -50px;
+    border-radius: 45px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: rgb(167, 63, 253);
+    text-align: center;
+    padding-top: 5px;
+    font-size:13px;
+}
+
+h1 {margin-left: 67px;
+    font-size: 33px;
+    color: white;
+    margin-top:6px;
+ }
+
+ .break{ border: px solid black;
+         width: 330px;
+         margin-left:66px;
+         margin-top:-10px;
+
+ }
+
+ .circle10{ border: px solid white;
+    width: 100px;
+    height: 25px;
+    margin-left: 65px;
+    margin-top: 55px;
+    border-radius: 45px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: rgb(167, 63, 253);
+    text-align: center;
+    padding-top: 5px;
+    font-size:13px;
+}
+
+
+.box-13{  border: px solid white;
+    width: 180px;
+    height: 230px;
+    margin-top: 50px;
+    margin-left: 135px;
+    border-radius: 50px;
+    transform:rotate(-13deg);
+    background-color: rgba(247, 244, 244, 0.1);
+    position: relative;
+}
+
+.box-14{  border: px solid white;
+    width: 180px;
+    height: 230px;
+    margin-top: -230px;
+    margin-left: 135px;
+    border-radius: 30px;
+    background-image: url(./vpics/lets\ go.jpg);
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 20;
+}
+
+.box-15{ border: px solid white;
+    width: 110px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: -60px;
+    z-index: 40;
+    position: relative;
+    border-radius: 25%;
+    background-image: url(./vpics/osim.jpg);
+    background-size:cover;
+   background-position: 50%;
+   background-repeat: no-repeat;
+
+}
+
+.box-16{border: px solid white;
+    width: 90px;
+    height: 90px;
+    margin-left: 280px;
+    margin-top: -300px;
+    border-radius: 20px;
+    background-image: url(./vpics/visionize.png);
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+   
+}
+
+.box-17{ border: px solid white;
+    width: 75px;
+    height: 70px;
+    margin-left: 290px;
+    margin-top: 120px;
+    border-radius: 15px;
+    background-image: url(./vpics/vision\ backdown.jpeg);
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+           
+}
+
+.box-18{ border: px solid white;
+          width: 25px;
+          height: 25px;
+          margin-left: 242px;
+          margin-top: 10px;
+          border-radius: 10px;
+          background-image: url(./vpics/vision\ back.png);
+          background-size:cover;
+         background-position: 50%;
+         background-repeat: no-repeat;
+                
+}
+
+
+
+.box-19{ border: 2px solid rgba(128, 0, 128, 0.418);
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 300px;
+    background-color: rgb(87, 5, 128);
+    box-shadow: 0 5px 10px ;     
+
+}
+
+.circle11{ border: px solid white;
+          width: 60px;
+          height: 60px;
+          border-radius: 50px;
+          margin-left: 155px;
+          margin-top: -135px;
+          background-color: #f5f5f5;
+}
+
+
+.circle12{ border: px solid white;
+           width: 60px;
+           height: 60px;
+           border-radius: 50px;
+           margin-left: 170px;
+           margin-top: -43px;
+}
+
+.line1{  border: px solid white;
+         width: 60px;
+         height: 1px;
+         margin-left: 158px;
+         margin-top: -7px;
+         rotate: 100%;
+         transform: rotate( -1deg);
+         background-color: rgba(255, 255, 255, 0.219);
+}
+
+.box-20{ border: px solid white;
+         width: 100px;
+         height: 55px;
+         margin-left: 138px;
+         margin-top: -165px;
+         color: white;
+         text-align: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pbox1{ border: 2px solid rgba(128, 0, 128, 0.418);
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: -140px;
+    background-color: rgb(87, 5, 128);
+       display:inline;
+       position:absolute;
+       z-index: -2;
+     box-shadow: 0 5px 10px ; 
+       
+       
+}
+
+
+.circle13{
+    border: 1px solid ;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    margin-left: 00px;
+    margin-top: 0px;
+
+}
+
+.imgpic{ border: px solid black;
+         display: flex;
+         width: 50px;
+         margin-top:125px;
+         margin-left: 170px;
+         z-index:-2;
+         
+}
+
+
+
+.circle14{ border: px solid white;
+           width:60px;
+           height:60px;          
+           border-radius:50px;
+           margin-left:169px;
+           margin-top: 115px;
+           z-index: 10;
+           position: relative;
+}
+
+
+
+.circle11::after{ 
+      content:"";
+      position:absolute;
+    border: px solid ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left:0px;
+    margin-top: 175px;
+   position: absolute;
+
+}
+
+
+.line2{ border: px solid white;
+        width: 60px;
+        height: 1px;
+        margin-left: 156px;
+        margin-top: 14px;
+        transform: rotate( -1deg);
+        background-color: rgba(255, 255, 255, 0.205);
+
+}
+
+.box-21{ border: px solid white;
+        width: 100px;
+        height: 55px;
+        margin-left: 133px;
+        margin-top: 119px;
+        color: white;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+
+ .pbox2{ border: 2px solid rgba(128, 0, 128, 0.418);
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: -130px;
+    background-color: rgb(87, 5, 128);
+       display:inline;
+       position:absolute;
+       z-index: -2;
+       box-shadow: 0 5px 10px ;    
+
+}
+
+.box-22 { border: px solid white;
+        width: 100px;
+        height: 55px;
+        margin-left: 138px;
+        margin-top: 110px;
+        color: white;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.dash{ border: px solid black;
+        width: 30px;
+        height: 30px;
+        margin-top:-110px;
+        margin-left:175px;  
+        background-image: url(vpics/vcircle.png);
+        background-repeat: no-repeat;
+        position:relative;
+}
+
+.dash2{border: px solid black;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        margin-top:-45px;
+        margin-left:159px;
+        background-color: white;
+      
+}
+
+.line3{ border: px solid white;
+        width: 60px;
+        height: 1px;
+        margin-left: 160px;
+        margin-top: 8px;
+        transform: rotate( -1deg);
+        background-color: rgba(255, 255, 255, 0.205);
+}
+
+
+.box-23{  border: px solid white;
+    width: 300px;
+    height: 55px;
+    margin-left: -7px;
+    margin-top: 110px; 
+}
+
+.box-24{ border: px solid white;
+    width: 80px;
+    height: 18px;
+    margin-top: 250px;
+    margin-left: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size:11px;
+}
+
+.box-25{  border:px solid white;
+    width: 63px;
+    height: 18px;
+    margin-top: -23px;
+    margin-left: 98px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+}
+
+.box-26 { border: px solid white;
+    width: 63px;
+    height: 18px;
+    margin-top: -24px;
+    margin-left: 164px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+}
+
+.box-27 { border: px solid white;
+    width: 80px;
+    height: 18px;
+    margin-top: -24px;
+    margin-left: 230px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration:none;
+    font-size: 11px;
+}
+
+.box-277{ border: px solid white;
+    width: 300px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: -12px;
+}
+
+
+#grid { display: grid;
+ grid-template-columns: auto  ;
+ grid-template-rows: auto auto auto auto;
+ grid-row-gap: 10px;
+ 
+}
+
+.box0{ border: 1px solid white;
+    width: 55%;
+    font-size:11px;
+    height: 15px;
+    color: white;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+}     
+
+
+.box-288{ border: px solid white;
+    width: 300px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 173px;
+}
+
+.box00{ border: 1px solid white;
+    width: 55%;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+    color: white;
+    padding-left: 10px;
+    font-size:11px;
+
+}
+
+.box-36{ border: px solid white;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family:cursive;
+     color: antiquewhite;
+     margin-left: -80px;
+     margin-top: 60px;
+}
+
+.box-37{  border: px solid white;
+    width: 500px;
+   height: 40px;
+   text-align: center;
+   font-family:cursive;
+   color: antiquewhite;
+   margin-left: -80px;
+   margin-top: 0px;
+   font-size: 10px;
+}
+
+input{ margin-left: 50px;
+     width: 250px;
+    height: 15px;
+    background-color:rgba(0, 0, 0, 0.5)  ;
+    color: white;
+}
+
+button{ margin-left: 130px ;
+    margin-top: 20px;
+    width: 95px;
+    height: 20px;
+    background-color: #7f01b9;
+    color: aliceblue;
+   transition: ease-in-out 0.5s;
+   padding: 0px;
+    
+    
+}
+
+button{ margin-left: 130px ;
+        margin-top: 20px;
+        width: 115px;
+        height: 30px;
+        background-color: #7f01b9;
+        color: aliceblue;
+       transition: ease-in-out 0.5s;
+       padding: 0px;
+        
+}
+
+
+
+.box-38{ border: px solid white;
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 55px;
+    text-align: center;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.box-39{ border: px solid rgba(255, 255, 255, 0.473);
+    width: 355px;
+    height: 30px;
+    color: white;
+    margin-left: -10px;
+    margin-top: -50px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top:30px;
+    background-color: rgba(0, 0, 0, 0.164);
+    text-decoration: none;
+   
+}
+
+.box-40{ border: 2px solid purple;
+    margin-top: -78px;
+    margin-left: 100px;
+    color: white;
+    font-size:10px;   
+    width: 60px;
+    height: px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #7f01b9;   
+
+ 
+    animation: move 2s  infinite alternate;
+
+
+}
+
+
+#gridd{  display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap; 
+    margin-left: -20px;          
+
+}
+
+.boxx{ border:px solid black;
+    width: 20px;
+    height:50px;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    color:white;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-top: -10px;
+
+
+    
+}
+
+
+.font3{ font-size:15px;
+
+}
+
+.circle-40{ border: px solid white;
+    width: 30px;
+    height: 25px;
+    position: relative;
+    margin-top: 40px ;
+    border-radius: 35px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 110px;
+}
+
+.circle20 { border: px solid white;
+    width: 10px;
+    height: 100px;
+    margin-left: -10px;
+    margin-top: -25px;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+.container2{ border: 1px solid white;
+    width: 50px;
+    height: 00px;
+    margin-left: -45px;
+    margin-top: -2800px;
+    z-index: 1;
+    display: none;
+    
+}
+
+
+}
+
+@keyframes move {
+    0%{ transform: translateX(-100px);
+
+}
+100%{
+    transform: translateX(150px);
+}
+
+}
